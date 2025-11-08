@@ -1,0 +1,25 @@
+Judith Owigar
+
+Software Engineer, Co-founder of AkiraChix and JuaKali Workforce
+
+On the top floor of a converted warehouse in Nairobi’s Kilimani district, young women in headphones code quietly, their screens glowing in parallel rows. This is AkiraChix, a training and incubation hub that has helped reshape how women enter Kenya’s technology industry. Its co-founder, Judith Owigar, moves between workstations with a tablet in hand—part teacher, part systems engineer, always in motion.
+
+Born in 1985 in Nairobi, Owigar grew up in an ordinary middle-class neighborhood where computers were rare. Her parents were educators who believed in discipline and self-sufficiency. She first encountered programming at Jomo Kenyatta University of Agriculture and Technology (JKUAT), where she studied Computer Science and found herself one of only a few women in the class.
+
+Her early career began in a construction firm’s IT department, where she wrote basic automation scripts and realized how limited female representation was in technical teams. “I was the only woman on the floor,” she later said. “That wasn’t diversity—it was isolation.”
+
+In 2010, together with a small group of women developers, she co-founded AkiraChix, a non-profit that trains young women from underprivileged backgrounds in coding, design, and entrepreneurship. The organization’s approach was pragmatic: focus on technical competence first, empowerment second. Each cohort undergoes a year-long program combining software development, UI/UX design, and startup incubation. Graduates are placed in tech firms or supported to start their own ventures.
+
+What began as a volunteer workshop has evolved into one of East Africa’s leading gender-inclusion tech initiatives. To date, over 1,000 women have completed AkiraChix’s training programs, with an employment or entrepreneurship rate above 80 percent, according to the organization’s internal audits. Alumni now work at firms including Google, Microsoft, Safaricom, and Andela.
+
+Owigar also founded JuaKali Workforce, a platform connecting informal-sector artisans—plumbers, electricians, masons—to digital job listings. The software uses SMS and mobile interfaces to bridge Kenya’s informal economy with formal labor markets, reflecting her broader interest in technology as a tool for inclusion rather than aspiration.
+
+Her work sits at the intersection of social design and engineering infrastructure. She emphasizes documentation, reproducibility, and metrics. “Tech for good only matters if it works for someone who can’t afford failure,” she said at a 2022 innovation summit.
+
+Owigar’s leadership has drawn recognition from CNN African Voices, the Anita Borg Institute, and the East African Community for promoting women in STEM. Yet she avoids the entrepreneur-as-celebrity narrative common in Africa’s startup scene. “We’re not founders,” she says. “We’re maintainers. We keep systems running.”
+
+AkiraChix operates from a hybrid funding model—grants, corporate partnerships, and alumni contributions. Its curriculum is continuously updated to reflect global standards while maintaining local applicability. Each student receives a laptop and stipend; each graduate is tracked for five years post-completion.
+
+Colleagues describe Owigar as structured and quietly demanding. “She speaks like an engineer, not an activist,” said one project lead. “The message is in the documentation.”
+
+In a region where digital transformation often privileges capital over competence, Judith Owigar built a model anchored on skill density. Her legacy may not be the code written by her students, but the infrastructure of opportunity she built line by line—proof that inclusion, too, can scale.

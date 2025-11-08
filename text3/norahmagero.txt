@@ -1,0 +1,27 @@
+Norah Magero
+
+Mechanical Engineer, Co-founder and CEO of Drop Access
+
+In a workshop in Kikuyu, west of Nairobi, technicians assemble a compact white chest that looks like a cooler box but hums faintly from within. The device—powered by solar energy and fitted with temperature sensors—stores vaccines, blood, and insulin for use in remote health clinics. Its name is VacciBox, and its inventor, Norah Magero, designed it to solve a simple but deadly problem: unreliable electricity.
+
+Born in 1988 in Western Kenya, Magero grew up in a rural village where power outages and long trips to clinics were routine. Her father was a mechanic, her mother a nurse. Between them, she absorbed two lessons—precision and purpose. After completing her secondary education, she earned a Bachelor’s degree in Mechanical Engineering from Jomo Kenyatta University of Agriculture and Technology (JKUAT).
+
+Her early career began at Kenya Electricity Generating Company (KenGen), where she worked on power-plant operations and energy systems. The job offered stability but limited innovation. “We were maintaining capacity,” she later recalled. “I wanted to create it.”
+
+In 2018, she co-founded Drop Access, a social enterprise focused on decentralized renewable-energy solutions. The organization works on energy access, productive use of power in rural communities, and now, cold-chain technology for healthcare. VacciBox became its flagship innovation—a portable, solar-powered refrigerator capable of maintaining temperatures between 2°C and 8°C for up to 24 hours without direct sunlight.
+
+The product is small enough to fit on a motorcycle, enabling last-mile vaccine delivery in areas where grid power is unreliable or nonexistent. Field tests in Kajiado and Turkana counties reduced vaccine spoilage rates by over 30 percent, according to data shared with Kenya’s Ministry of Health.
+
+VacciBox has since attracted global attention. In 2022, Magero won the Royal Academy of Engineering’s Africa Prize for Engineering Innovation, becoming the first Kenyan woman to do so. She has since partnered with regional health authorities to deploy units in Tanzania, Uganda, and South Sudan.
+
+Drop Access operates with a lean model: six full-time engineers, contract technicians, and an ecosystem of local suppliers. Components are sourced regionally; assembly happens in Kikuyu to minimize cost and import dependency. Each VacciBox unit sells for roughly $500–$700, with options for donor or government subsidy.
+
+Magero’s approach is rooted in function, not symbolism. “We’re not building gadgets,” she said during a technical presentation in 2023. “We’re extending shelf life—for medicine, for food, for opportunity.”
+
+Her design philosophy reflects a wider continental shift: African engineers developing hardware tailored to local constraints rather than importing unsuitable technology. She insists on full documentation for every prototype and subjects her team to periodic audit simulations—an uncommon practice for small firms in the energy-access sector.
+
+Colleagues describe her leadership style as data-first and unpretentious. “If you can’t show her numbers, she won’t approve your design,” said one engineer.
+
+Beyond Drop Access, she mentors women in STEM and serves on national committees for renewable-energy policy. Her message is consistent: innovation must be both measurable and maintainable.
+
+At the Kikuyu workshop, technicians load a finished VacciBox into a van bound for Isiolo. The sky outside is overcast, but the box doesn’t need direct sunlight—just photons. For Norah Magero, that reliability is the real innovation: technology that keeps running even when everything else stops.

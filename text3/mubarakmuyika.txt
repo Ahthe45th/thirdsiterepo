@@ -1,0 +1,25 @@
+Mubarak Muyika
+
+Tech Entrepreneur, Founder of Zagace and Hype Century
+
+In a small office off Mombasa Road, a whiteboard maps a supply chain that stretches from Nairobi to Lagos. The handwriting belongs to Mubarak Muyika, a 31-year-old Kenyan software entrepreneur who began coding before he owned a computer. To local founders, he represents what the next generation of African enterprise could look like: global in logic, local in application, and privately profitable.
+
+Born in 1994 in Western Kenya, Muyika lost both parents by age eleven—his father a civil servant, his mother a schoolteacher. Relatives took him in and sent him to Friends School Kamusinga, a provincial boarding school with few computers and limited power. That scarcity forced improvisation. Muyika taught himself programming from borrowed manuals and began designing simple web pages on shared devices.
+
+At sixteen, he built a content-management system for his adoptive family’s publishing business. The program reduced inventory losses and automated invoicing. The software worked; demand followed. By 18, he had founded Hype Century Technologies, offering web-hosting and domain-registration services to small firms across East Africa. The company grew to more than 700 clients in under two years before he sold it to a regional investor in 2012.
+
+The sale gave him capital and a lesson: scale requires structure. He used the proceeds to develop Zagace, a cloud-based enterprise-resource platform that bundles accounting, inventory, human-resources, and communication tools into one interface. The platform targets small and midsize businesses that cannot afford global software suites but need professional systems.
+
+In 2015, Forbes Africa named him one of the continent’s most promising young entrepreneurs. That same year, his work drew attention from investors linked to Alibaba Group and Silicon Valley funds studying Africa’s small-enterprise market. Muyika declined early acquisition offers, insisting on retaining control. “Africa can build its own software backbone,” he said in a Nairobi panel. “We don’t need to rent it.”
+
+Zagace now services clients in Kenya, Ghana, and Nigeria, operating primarily on a subscription model. Analysts describe its code base as one of the most sophisticated enterprise tools written entirely on the continent. The company remains privately held; revenue figures are undisclosed, but regional partners estimate annual recurring income in the low millions of dollars.
+
+Colleagues say Muyika’s management style is minimalist—short meetings, constant iteration, little tolerance for hype. He avoids conferences and maintains a quiet online profile. “He measures success by uptime, not applause,” said a Nairobi venture investor familiar with his work.
+
+His trajectory challenges the narrative that Africa’s brightest technologists must relocate to scale. Operating from Nairobi, he has built a team of local engineers trained in-house and paid at global-industry benchmarks. The firm’s servers are hosted across multiple African data centers to minimize foreign dependence.
+
+Outside business, Muyika mentors young developers through informal coding camps and occasionally lectures at local universities. He funds these sessions himself, avoiding NGO partnerships. “It’s faster that way,” he says.
+
+In a technology sector defined by imported capital and short-lived startups, Muyika’s discipline stands out. He builds slowly, audits often, and keeps ownership local.
+
+For Kenya’s tech scene—long admired for innovation but short on scale—his method suggests an alternative model: fewer slogans, more systems.

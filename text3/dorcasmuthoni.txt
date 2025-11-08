@@ -1,0 +1,25 @@
+Dorcas Muthoni
+
+Engineer, Founder of Openworld and AfChix Network
+
+At a modest office in Nairobi’s Westlands district, a server rack hums beside a row of laptops running network-security diagnostics. The founder, Dorcas Muthoni, 46, moves quietly between desks, scanning code on a shared screen. To her, the measure of success isn’t how much software Kenya exports—but how many women help build it.
+
+Born in Kenya in the late 1970s, Muthoni grew up in a working-class family that treated education as a public duty. Her curiosity about machines started early, long before personal computers reached most schools. Teachers recall her dismantling radios and asking to see “how electricity travels.” Access was limited, but persistence replaced privilege.
+
+She studied computer science at the University of Nairobi, graduating when women accounted for less than five percent of the program. At 24 she founded Openworld Ltd., a software-engineering firm specializing in enterprise and government systems. The company’s early contracts included data-management platforms for public agencies and education portals that digitized student records.
+
+Her approach was procedural rather than promotional: deliver stable code, document everything, avoid shortcuts. Over two decades Openworld built and maintained systems for NGOs, telecoms, and ministries—work rarely visible to the public but integral to Kenya’s digital infrastructure.
+
+Muthoni’s influence widened when she confronted the structural gap she had lived through—the exclusion of women from technical fields. In 2004 she created AfChix, a regional network that mentors and trains women in computing and network administration. What began as informal workshops evolved into a pan-African organization with chapters in more than a dozen countries. Its graduates now manage university networks, start cybersecurity firms, and advise regulators on spectrum policy.
+
+AfChix operates with the discipline of a utility, not a charity. Training modules are standardized, certification is audited, and alumni are tracked for employment outcomes. “Our goal,” she told an engineering conference in Kigali, “is not inspiration. It’s insertion—getting women into the system where the decisions are made.”
+
+In 2014, Muthoni became one of the first Africans inducted into the Internet Hall of Fame, recognized for expanding connectivity and inclusion across the continent. She has since served on advisory boards for regional internet registries and UN digital-development programs, often arguing for local control of data and infrastructure.
+
+Colleagues describe her as analytical and exacting. “She runs a company like a network,” said one engineer. “If a node fails, she fixes the connection, not the story.”
+
+Despite her international profile, Muthoni keeps Openworld privately held and AfChix donor-light, relying on revenue from training contracts to maintain independence. She avoids political commentary and declines most media requests.
+
+Her influence is visible less in headlines than in bandwidth: the steady increase of women configuring routers, writing firmware, and leading product teams across East and West Africa.
+
+In a region where technology often arrives from abroad, Dorcas Muthoni built tools—and a talent pipeline—from within. Her work suggests that Africa’s digital future may depend not on imported platforms, but on who is trained to keep the servers running when the power flickers.
