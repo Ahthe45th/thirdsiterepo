@@ -10,16 +10,26 @@ export type Entrepreneur = {
 };
 
 const PICKS: string[] = [
-  'manuchandaria',
-  'chriskirubi',
-  'tabithakaranja',
-  'vimalshah',
-  'narendraraval',
-  'naushadmerali',
-  'lornarutto',
-  'dorcasmuthoni',
-  'eddahgachukia',
-  'alexmativo'
+'yasinabubakr',
+'vimalshah',
+'tabithakaranja',
+'norahmagero',
+'naushadmerali',
+'narendraraval',
+'mubarakmuyika',
+'manuchandaria',
+'mamanginakenyatta',
+'lornarutto',
+'judithowigar',
+'josephmucheru',
+'johngachora',
+'jimnahmbaru',
+'erickinoti',
+'eddahgachukia',
+'dorcasmuthoni',
+'chriskirubi',
+'bhimjideparshah',
+'alexmativo'
 ];
 
 const IMAGE_DIRECTORIES = ['public/pictures', 'public/images', 'pictures', 'images'];
