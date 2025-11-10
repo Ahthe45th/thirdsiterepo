@@ -5,24 +5,66 @@ export type Entrepreneur = {
   slug: string;
   name: string;
   tagline: string;
-  image: string;
+  image: string | null;
   summary: string[];
 };
 
-const PICKS: Array<{ slug: string; image: string }> = [
-  { slug: 'manuchandaria', image: 'mc1.jpeg' },
-  { slug: 'chriskirubi', image: 'ck1.jpeg' },
-  { slug: 'tabithakaranja', image: 'tk1.jpeg' },
-  { slug: 'vimalshah', image: 'vs1.jpeg' },
-  { slug: 'narendraraval', image: 'nr1.jpeg' },
-  { slug: 'naushadmerali', image: 'nm1.jpeg' },
-  { slug: 'lornarutto', image: 'lr1.jpeg' },
-  { slug: 'dorcasmuthoni', image: 'dm1.jpeg' },
-  { slug: 'eddahgachukia', image: 'eg1.jpeg' },
-  { slug: 'alexmativo', image: 'am1.jpeg' }
+const PICKS: string[] = [
+  'manuchandaria',
+  'chriskirubi',
+  'tabithakaranja',
+  'vimalshah',
+  'narendraraval',
+  'naushadmerali',
+  'lornarutto',
+  'dorcasmuthoni',
+  'eddahgachukia',
+  'alexmativo'
 ];
 
-function parseText(slug: string, image: string): Entrepreneur {
+const IMAGE_DIRECTORIES = ['public/pictures', 'public/images', 'pictures', 'images'];
+
+const SUPPORTED_IMAGE_EXTENSIONS = new Set(['.jpg', '.jpeg', '.png', '.webp', '.avif']);
+
+function getInitials(source: string): string {
+  return source
+    .split(/[^A-Za-z]+/)
+    .filter(Boolean)
+    .map((segment) => segment[0]?.toLowerCase() ?? '')
+    .slice(0, 3)
+    .join('');
+}
+
+function findImageByInitials(initials: string): string | null {
+  if (!initials) {
+    return null;
+  }
+
+  for (const directory of IMAGE_DIRECTORIES) {
+    const directoryPath = path.join(process.cwd(), directory);
+
+    if (!fs.existsSync(directoryPath) || !fs.statSync(directoryPath).isDirectory()) {
+      continue;
+    }
+
+    const matches = fs
+      .readdirSync(directoryPath)
+      .filter((fileName) => {
+        const ext = path.extname(fileName).toLowerCase();
+        return fileName.toLowerCase().startsWith(initials) && SUPPORTED_IMAGE_EXTENSIONS.has(ext);
+      })
+      .sort((a, b) => a.localeCompare(b));
+
+    if (matches.length > 0) {
+      const relativeDirectory = directory.startsWith('public/') ? directory.replace(/^public\//, '') : directory;
+      return `/${relativeDirectory}/${matches[0]}`.replace(/\/+/g, '/');
+    }
+  }
+
+  return null;
+}
+
+function parseText(slug: string): Entrepreneur {
   const filePath = path.join(process.cwd(), 'text', `${slug}.txt`);
   const raw = fs.readFileSync(filePath, 'utf-8');
   const segments = raw
@@ -36,6 +78,9 @@ function parseText(slug: string, image: string): Entrepreneur {
   const tagline = taglineSegment ?? '';
   const summary = bodySegments.slice(0, 3);
 
+  const initials = getInitials(name);
+  const image = findImageByInitials(initials);
+
   return {
     slug,
     name,
@@ -46,5 +91,5 @@ function parseText(slug: string, image: string): Entrepreneur {
 }
 
 export function getEntrepreneurs(): Entrepreneur[] {
-  return PICKS.map(({ slug, image }) => parseText(slug, image));
+  return PICKS.map((slug) => parseText(slug));
 }
