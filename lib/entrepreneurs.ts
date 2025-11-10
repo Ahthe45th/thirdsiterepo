@@ -27,7 +27,9 @@ const IMAGE_DIRECTORIES = ['public/pictures', 'public/images', 'pictures', 'imag
 const SUPPORTED_IMAGE_EXTENSIONS = new Set(['.jpg', '.jpeg', '.png', '.webp', '.avif']);
 
 function getInitials(source: string): string {
-  return source
+  const normalized = source.replace(/\([^)]*\)/g, ' ');
+
+  return normalized
     .split(/[^A-Za-z]+/)
     .filter(Boolean)
     .map((segment) => segment[0]?.toLowerCase() ?? '')
