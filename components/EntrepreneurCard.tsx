@@ -8,13 +8,15 @@ export function EntrepreneurCard({
   index: number;
 }) {
   const rank = index + 1;
-  const photoUrl = `/pictures/${entrepreneur.image}`;
+  const photoUrl = entrepreneur.image;
   const initials = entrepreneur.name
     .split(/\s+/)
     .filter(Boolean)
     .map((part) => part[0]?.toUpperCase() ?? '')
     .join('')
     .slice(0, 3);
+  const gradientOverlay = 'linear-gradient(180deg, rgba(15, 23, 42, 0.08) 0%, rgba(15, 23, 42, 0.55) 100%)';
+  const backgroundImage = photoUrl ? `${gradientOverlay}, url(${photoUrl})` : gradientOverlay;
 
   return (
     <article
@@ -26,7 +28,7 @@ export function EntrepreneurCard({
           aria-hidden="true"
           className="absolute inset-0 origin-top scale-100 bg-slate-200 transition duration-500 group-hover:scale-105"
           style={{
-            backgroundImage: `linear-gradient(180deg, rgba(15, 23, 42, 0.08) 0%, rgba(15, 23, 42, 0.55) 100%), url(${photoUrl})`,
+            backgroundImage,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat'
