@@ -15,18 +15,18 @@ export function EntrepreneurCard({
     .map((part) => part[0]?.toUpperCase() ?? '')
     .join('')
     .slice(0, 3);
-  const gradientOverlay = 'linear-gradient(180deg, rgba(15, 23, 42, 0.08) 0%, rgba(15, 23, 42, 0.55) 100%)';
+  const gradientOverlay = 'linear-gradient(180deg, rgba(31, 27, 75, 0.15) 0%, rgba(31, 27, 75, 0.68) 100%)';
   const backgroundImage = photoUrl ? `${gradientOverlay}, url(${photoUrl})` : gradientOverlay;
 
   return (
     <article
       id={entrepreneur.slug}
-      className="group relative flex flex-col overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
+      className="group relative flex flex-col overflow-hidden rounded-3xl border border-transparent bg-gradient-to-br from-white/95 via-white/90 to-brand-glow/25 shadow-lg transition hover:-translate-y-1 hover:shadow-2xl"
     >
-      <div className="relative h-64 w-full overflow-hidden bg-slate-100">
+      <div className="relative h-64 w-full overflow-hidden bg-brand-dusk/25">
         <div
           aria-hidden="true"
-          className="absolute inset-0 origin-top scale-100 bg-slate-200 transition duration-500 group-hover:scale-105"
+          className="absolute inset-0 origin-top scale-100 bg-brand-dusk/30 transition duration-500 group-hover:scale-105"
           style={{
             backgroundImage,
             backgroundSize: 'cover',
@@ -35,10 +35,10 @@ export function EntrepreneurCard({
           }}
         />
         <span className="sr-only">Portrait of {entrepreneur.name}</span>
-        <span className="absolute left-6 top-6 inline-flex h-12 w-12 items-center justify-center rounded-full bg-white/90 font-display text-xl font-semibold text-brand shadow">
+        <span className="absolute left-6 top-6 inline-flex h-12 w-12 items-center justify-center rounded-full bg-brand-glow text-brand font-display text-xl font-semibold shadow">
           {rank}
         </span>
-        <span className="absolute bottom-5 right-6 inline-flex items-center justify-center rounded-full bg-white/85 px-3 py-1 text-xs font-semibold uppercase tracking-[0.3em] text-brand">
+        <span className="absolute bottom-5 right-6 inline-flex items-center justify-center rounded-full bg-brand-dusk/80 px-3 py-1 text-xs font-semibold uppercase tracking-[0.3em] text-white shadow">
           {initials}
         </span>
       </div>
