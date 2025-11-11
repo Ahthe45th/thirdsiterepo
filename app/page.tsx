@@ -5,7 +5,7 @@ export default function HomePage() {
   const entrepreneurs = getEntrepreneurs();
 
   return (
-    <div className="bg-[radial-gradient(circle_at_top,_#eff6ff,_#ffffff_60%)]">
+    <div className="bg-[radial-gradient(circle_at_top,_#fdf2f8_0%,_#e0f2fe_42%,_#fef3c7_82%,_#ffffff_100%)]">
       <section className="mx-auto w-full max-w-6xl px-6 pb-16 pt-12" id="top-ten">
         <div className="mx-auto max-w-3xl text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-brand-accent">
@@ -26,12 +26,15 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="border-t border-slate-200 bg-white" id="newsletter">
+      <section
+        className="border-t border-transparent bg-[linear-gradient(135deg,_#1f1b4b,_#4338ca,_#f97316)] text-white"
+        id="newsletter"
+      >
         <div className="mx-auto flex w-full max-w-6xl flex-col gap-8 px-6 py-16 sm:flex-row sm:items-center sm:justify-between">
           <div className="max-w-xl space-y-3">
-            <p className="text-xs font-semibold uppercase tracking-[0.3em] text-brand-accent">Weekly Briefing</p>
-            <h3 className="font-display text-3xl text-brand">Get the founder intelligence report</h3>
-            <p className="text-sm text-slate-600">
+            <p className="text-xs font-semibold uppercase tracking-[0.3em] text-brand-glow">Weekly Briefing</p>
+            <h3 className="font-display text-3xl text-white">Get the founder intelligence report</h3>
+            <p className="text-sm text-amber-50/90">
               Join 25,000+ readers receiving Sunday analysis on African venture, industrial policy, and the people driving new
               growth corridors.
             </p>
@@ -44,11 +47,11 @@ export default function HomePage() {
               id="email"
               type="email"
               placeholder="you@example.com"
-              className="flex-1 rounded-full border border-slate-300 px-4 py-3 text-sm shadow-sm focus:border-brand-accent focus:outline-none focus:ring-2 focus:ring-brand-accent/30"
+              className="flex-1 rounded-full border border-white/40 bg-white/90 px-4 py-3 text-sm text-brand shadow-sm placeholder:text-brand/50 focus:border-brand-glow focus:outline-none focus:ring-2 focus:ring-brand-glow/40"
             />
             <button
               type="submit"
-              className="rounded-full bg-brand-accent px-5 py-3 text-sm font-semibold text-white shadow hover:bg-blue-500"
+              className="rounded-full bg-brand-glow px-5 py-3 text-sm font-semibold text-brand shadow transition hover:bg-white"
             >
               Subscribe
             </button>
@@ -56,7 +59,10 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="border-t border-slate-200 bg-slate-50" id="about">
+      <section
+        className="border-t border-transparent bg-[linear-gradient(180deg,_rgba(252,211,77,0.16)_0%,_rgba(99,102,241,0.12)_100%)]"
+        id="about"
+      >
         <div className="mx-auto flex w-full max-w-6xl flex-col gap-8 px-6 py-16 sm:flex-row sm:items-center sm:justify-between">
           <div className="max-w-xl space-y-4">
             <p className="text-xs font-semibold uppercase tracking-[0.3em] text-brand-accent">About Third Site</p>
@@ -67,7 +73,7 @@ export default function HomePage() {
               to highlight the builders moving the continent forward.
             </p>
           </div>
-          <div className="grid w-full max-w-md gap-4 rounded-3xl border border-dashed border-brand/20 bg-white p-6 text-sm text-slate-600">
+          <div className="grid w-full max-w-md gap-4 rounded-3xl border border-transparent bg-white/80 p-6 text-sm text-slate-600 shadow-[0_25px_50px_-12px_rgba(79,70,229,0.25)] backdrop-blur">
             <div>
               <p className="font-display text-4xl text-brand">72</p>
               <p>Long-form profiles published since 2018</p>
