@@ -26,6 +26,44 @@ export default function HomePage() {
         </div>
       </section>
 
+      <section className="border-t border-slate-200 bg-white/80" id="profiles">
+        <div className="mx-auto w-full max-w-6xl px-6 py-16">
+          <div className="mx-auto max-w-3xl text-center">
+            <p className="text-xs font-semibold uppercase tracking-[0.3em] text-brand-accent">Profiles</p>
+            <h3 className="font-display text-3xl text-brand sm:text-4xl">Read every long-form profile</h3>
+            <p className="mt-4 text-sm leading-relaxed text-slate-700">
+              Dive into each entrepreneur’s full story, with background, milestones, and context gathered from our reporting archive.
+            </p>
+          </div>
+          <div className="mt-12 grid gap-10">
+            {entrepreneurs.map((entrepreneur) => (
+              <article
+                key={entrepreneur.slug}
+                id={`profile-${entrepreneur.slug}`}
+                className="rounded-3xl border border-slate-200 bg-white/90 p-8 shadow-md"
+              >
+                <header className="border-b border-slate-100 pb-4">
+                  <p className="text-xs font-semibold uppercase tracking-[0.3em] text-brand-accent">Full profile</p>
+                  <h4 className="font-display text-2xl text-brand">{entrepreneur.name}</h4>
+                  {entrepreneur.tagline && <p className="text-sm text-slate-600">{entrepreneur.tagline}</p>}
+                </header>
+                <div className="mt-6 space-y-4 text-sm leading-relaxed text-slate-700">
+                  {entrepreneur.profile.map((paragraph, paragraphIndex) => (
+                    <p key={`${entrepreneur.slug}-profile-${paragraphIndex}`}>{paragraph}</p>
+                  ))}
+                </div>
+                <div className="mt-8 rounded-2xl border border-brand/15 bg-brand-glow/10 p-6 text-sm text-slate-700">
+                  <h5 className="font-display text-lg text-brand">FAQ (coming soon)</h5>
+                  <p className="mt-2">
+                    We are compiling common questions about {entrepreneur.name}&apos;s journey, investments, and impact. Check back soon for more details.
+                  </p>
+                </div>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section
         className="border-t border-transparent bg-[linear-gradient(135deg,_#1f1b4b,_#4338ca,_#f97316)] text-white"
         id="newsletter"

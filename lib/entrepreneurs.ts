@@ -7,6 +7,7 @@ export type Entrepreneur = {
   tagline: string;
   image: string | null;
   summary: string[];
+  profile: string[];
 };
 
 const PICKS: string[] = [
@@ -89,6 +90,7 @@ function parseText(slug: string): Entrepreneur {
   const name = nameSegment ?? slug;
   const tagline = taglineSegment ?? '';
   const summary = bodySegments.slice(0, 3);
+  const profile = bodySegments;
 
   const initials = getInitials(name);
   const image = findImageByInitials(initials);
@@ -98,7 +100,8 @@ function parseText(slug: string): Entrepreneur {
     name,
     tagline,
     image,
-    summary
+    summary,
+    profile
   };
 }
 

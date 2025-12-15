@@ -58,7 +58,10 @@ export function EntrepreneurCard({
           ))}
         </div>
         <div className="mt-auto pt-4 text-sm font-semibold text-brand">
-          Read the full profile &rarr;
+          <a className="inline-flex items-center gap-2 hover:text-brand-accent" href={`#profile-${entrepreneur.slug}`}>
+            Read the full profile
+            <span aria-hidden>&rarr;</span>
+          </a>
         </div>
       </div>
     </article>
