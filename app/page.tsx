@@ -3,6 +3,82 @@ import { getEntrepreneurs } from '@/lib/entrepreneurs';
 
 export default function HomePage() {
   const entrepreneurs = getEntrepreneurs();
+  const yasinFaq = [
+    {
+      question: 'Who is Dr. Yasin Abu Bakr?',
+      answer:
+        'He is the founder and chairman of ALIF LAA MEEM Enterprises, known for designing and financing Shariah-compliant structures for African governments, including sukuk bonds, public-private development vehicles, and infrastructure financing models.'
+    },
+    {
+      question: 'When and where was he born?',
+      answer: 'He was born in 1974 in Nairobi, Kenya, during a period when the city—and the young nation—were still taking shape.'
+    },
+    {
+      question: 'What early family circumstances shaped his worldview?',
+      answer:
+        'He was the youngest of six children, raised by a mother widowed at twenty-six who built a successful trading and property portfolio across Nairobi. Her discipline, risk-taking, and financial intuition became his first lessons in capital and resilience.'
+    },
+    {
+      question: 'How influential was his mother’s business career?',
+      answer:
+        'Her trading and property ventures grew into an empire later valued at roughly $3 million. Observing her work taught him about asset appreciation, credit judgment, and the idea that capital can be moral if it is deliberate.'
+    },
+    {
+      question: 'What schools and universities did he attend?',
+      answer:
+        'He studied at St. Mary’s School in Nairobi, Northeastern University in Boston (Finance & Insurance, ROTC), the London School of Economics (Law), and Al-Azhar University in Cairo (Islamic Shariah). These four institutions reflect the fusion of finance, law, strategy, and religion in his later work.'
+    },
+    {
+      question: 'What entrepreneurial ventures did he attempt early in life?',
+      answer:
+        'Before turning 25, he started ELLAK (a video-rental business), a vegetable supply chain serving Nairobi estates, and a water-delivery operation for areas with unreliable municipal supply. These ventures taught him that systems matter more than slogans.'
+    },
+    {
+      question: 'What professional experience did he gain before returning to Kenya?',
+      answer:
+        'He worked with Bank of Boston and BayBank Boston, defense-linked environments including McDonnell Douglas and the Pentagon, and Barclays UK. Through these roles he learned how institutions “breathe”—how risk, trust, liquidity, and structure must stay in rhythm.'
+    },
+    {
+      question: 'What major companies did he establish after returning to Kenya?',
+      answer:
+        'He founded HouseCottages (an early affordable housing model), Credit One (Kenya’s first payday-loan company, later acquired by Platinum Credit), and Kensington Orient (introduced insurance-premium financing). Each project followed his method: start on paper, prototype quickly, then scale with precision.'
+    },
+    {
+      question: 'What role did he play in developing Islamic finance in Kenya?',
+      answer:
+        'He worked with the Central Bank of Kenya to help license the country’s first Islamic financial institutions: Gulf African Bank, First Community Bank, and Takaful Insurance. He translated Islamic principles into functional financial architecture, not symbolic gesture.'
+    },
+    {
+      question: 'How does he describe his philosophy of money?',
+      answer:
+        'He is blunt and disciplined. His known principles include “Money exists to move, not to sleep.” and “Work hard enough, and even luck will follow schedule.” These statements reflect his belief in liquidity, velocity, and disciplined execution.'
+    },
+    {
+      question: 'What regions seek his financial and structural expertise?',
+      answer:
+        'His advisory work extends to Uganda, Tanzania, Rwanda, Zambia, Somalia, and the Democratic Republic of Congo (DRC). His influence is often quiet but significant, especially in designing financing strategies for state priorities.'
+    },
+    {
+      question: 'What distinguishes Alif Laa Meem Enterprises from typical finance firms?',
+      answer:
+        'The firm focuses on Shariah-compliant, asset-backed, results-driven financing models for major public projects. It sees opportunities years before they become mainstream policy discussions and prioritizes execution over publicity.'
+    },
+    {
+      question: 'What leadership characteristics is he known for?',
+      answer:
+        'He is described as soft-spoken, measured, emotionally disciplined, and fast-moving, guided by both banker’s precision and imam’s cadence. Associates note that he doesn’t pitch—he predicts.'
+    },
+    {
+      question: 'How does he interact with political environments?',
+      answer:
+        'He has historically backed major political figures—Uhuru Kenyatta, then William Ruto—and maintains advisory relationships across multiple East African governments. His political alignment is direct but not flamboyant; influence for him is a tool of structuring, not spectacle.'
+    },
+    {
+      question: 'What is the core theme of his life’s work so far?',
+      answer:
+        'The throughline across all three scripts is: “Faith as framework, capital as craft, structure as the engine of development.” He aims to build systems—not speeches—that endure beyond individuals.'
+    }
+  ];
 
   return (
     <div className="bg-[radial-gradient(circle_at_top,_#fdf2f8_0%,_#e0f2fe_42%,_#fef3c7_82%,_#ffffff_100%)]">
@@ -53,10 +129,23 @@ export default function HomePage() {
                   ))}
                 </div>
                 <div className="mt-8 rounded-2xl border border-brand/15 bg-brand-glow/10 p-6 text-sm text-slate-700">
-                  <h5 className="font-display text-lg text-brand">FAQ (coming soon)</h5>
-                  <p className="mt-2">
-                    We are compiling common questions about {entrepreneur.name}&apos;s journey, investments, and impact. Check back soon for more details.
-                  </p>
+                  <h5 className="font-display text-lg text-brand">FAQ</h5>
+                  {entrepreneur.slug === 'yasinabubakr' ? (
+                    <div className="mt-4 space-y-4">
+                      {yasinFaq.map((item, faqIndex) => (
+                        <div key={`${entrepreneur.slug}-faq-${faqIndex}`} className="space-y-1">
+                          <p className="font-semibold text-brand">
+                            {faqIndex + 1}. {item.question}
+                          </p>
+                          <p>{item.answer}</p>
+                        </div>
+                      ))}
+                    </div>
+                  ) : (
+                    <p className="mt-2">
+                      We are compiling common questions about {entrepreneur.name}&apos;s journey, investments, and impact. Check back soon for more details.
+                    </p>
+                  )}
                 </div>
               </article>
             ))}
