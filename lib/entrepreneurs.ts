@@ -11,7 +11,7 @@ export type Entrepreneur = {
 };
 
 const PICKS: string[] = [
-'yasinabubakr',
+'dryasinabubakr',
 'vimalshah',
 'tabithakaranja',
 'norahmagero',
