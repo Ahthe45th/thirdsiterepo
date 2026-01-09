@@ -82,13 +82,13 @@ export default function HomePage() {
 
   return (
     <div className="bg-[radial-gradient(circle_at_top,_#fdf2f8_0%,_#e0f2fe_42%,_#fef3c7_82%,_#ffffff_100%)]">
-      <section className="mx-auto w-full max-w-6xl px-6 pb-16 pt-12" id="top-ten">
+      <section className="mx-auto w-full max-w-6xl px-6 pb-16 pt-12" id="top-twenty">
         <div className="mx-auto max-w-3xl text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-brand-accent">
             Feature Article
           </p>
           <h2 className="font-display text-4xl text-brand sm:text-5xl">
-            The Top 10 Visionary Entrepreneurs Powering Kenya’s Next Economy
+            The Top 20 Visionary Entrepreneurs Powering Kenya’s Next Economy
           </h2>
           <p className="mt-6 text-base leading-relaxed text-slate-700">
             These founders and industrial leaders are building companies that elevate manufacturing, technology, finance, and
@@ -196,7 +196,7 @@ export default function HomePage() {
             <h3 className="font-display text-3xl text-brand">Long-form business journalism for emerging markets</h3>
             <p className="text-sm leading-relaxed text-slate-600">
               We report from Nairobi, Kigali, Lagos, and beyond to understand how capital, policy, and leadership intersect. Each
-              quarter we publish a signature Top Ten, combining on-the-ground reporting, archival photography, and data research
+              quarter we publish a signature Top Twenty, combining on-the-ground reporting, archival photography, and data research
               to highlight the builders moving the continent forward.
             </p>
           </div>
