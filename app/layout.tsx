@@ -33,8 +33,8 @@ export default function RootLayout({
             <div className="mx-auto flex w-full max-w-6xl flex-col gap-3 px-6 py-6 text-sm text-slate-600 sm:flex-row sm:items-center sm:justify-between">
               <p>&copy; 2023 Third Site Media. All rights reserved.</p>
               <nav className="flex gap-4">
-                <a href="#top-ten" className="hover:underline">
-                  Top 10 Feature
+                <a href="#top-twenty" className="hover:underline">
+                  Top 20 Feature
                 </a>
                 <a href="#newsletter" className="hover:underline">
                   Newsletter
